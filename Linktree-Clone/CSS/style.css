@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: 'Rubik', sans-serif;
+     min-height: 100vh;
+     display: grid;
+     place-items: center;
+     text-align: center;
+     background: #00affa;
+}
+
+/* The Container is where I fix theresponsiveness */
+.container {
+     background: linear-gradient(#03fce8, #03b1fc);
+     width: 95vw;
+     max-width: 481px;
+     padding: 2rem;
+     border-radius: 20px;
+}
+
+.profile {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     overflow: hidden;
+     object-fit: cover;
+}
+
+h2,
+h3 {
+     color: #fff;
+     letter-spacing: 0.2px;
+}
+
+h3 {
+     margin-top: 5px;
+     font-size: 1rem;
+     font-weight: 300;
+}
+
+.link-blocks {
+     margin-top: 1rem;
+}
+
+.link {
+     text-decoration: none;
+     display: block;
+     color: #fff;
+     border: 1px solid;
+     border-radius: 10px;
+     margin: 1.75rem 0;
+     padding: 0.5rem;
+     font-size: 16px;
+     transition: all 300ms ease-in-out;
+}
+
+.link:hover {
+     background: transparent;
+     color: #03fce8;
+     background-color: #fff;
+     border: none;
+}
+
+.footer-details {
+     margin-top: 40px;
+     margin-bottom: 20px;
+}
+
+.footer-details h2 {
+     font-size: 18px;
+     font-weight: 100;
+     font-style: italic;
+}
+
+.footer-details h3 {
+     margin-top: 10px;
+     font-size: 16px;
+     font-weight: 400;
+}
